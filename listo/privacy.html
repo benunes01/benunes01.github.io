@@ -3,62 +3,120 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Listo — Privacy Policy</title>
+  <title>Listo · Privacy</title>
+  <meta name="description" content="What Listo keeps on your phone, what it sends, to whom and why.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a0a; color: #e0e0e0; min-height: 100vh; padding: 40px 20px; }
-    .container { max-width: 640px; margin: 0 auto; }
-    h1 { font-size: 28px; color: #fff; margin-bottom: 8px; }
-    .subtitle { color: #888; font-size: 14px; margin-bottom: 40px; }
-    h2 { font-size: 18px; color: #fff; margin: 28px 0 10px; }
-    p { font-size: 15px; line-height: 1.7; color: #bbb; margin-bottom: 12px; }
-    ul { padding-left: 20px; margin: 8px 0 16px; }
-    li { font-size: 15px; line-height: 1.7; color: #bbb; margin-bottom: 4px; }
-    a { color: #7c5cfc; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #1a1a1a; color: #555; font-size: 13px; }
+    :root { --paper:#F7F3EA; --sheet:#FFFDF8; --rule:#E4DCCB; --ink:#1E1A14; --soft:#5F574B; --basil:#2B7649; --tag:#FBEFC8; }
+    @media (prefers-color-scheme: dark) { :root { --paper:#15130F; --sheet:#1E1B16; --rule:#2D2922; --ink:#F2ECE0; --soft:#B9B0A1; --basil:#5CC48A; --tag:#3A3218; } }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--paper); color: var(--ink); font: 16px/1.65 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; padding: 48px 16px 64px; }
+    main { max-width: 680px; margin: 0 auto; }
+    h1 { font: 600 34px/1.15 Fraunces, Georgia, serif; letter-spacing: -0.4px; }
+    h2 { font: 600 21px/1.25 Fraunces, Georgia, serif; margin: 36px 0 10px; }
+    h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+    p, li { color: var(--soft); }
+    p + p { margin-top: 10px; }
+    ul { padding-left: 20px; margin-top: 8px; }
+    li + li { margin-top: 6px; }
+    strong { color: var(--ink); font-weight: 600; }
+    a { color: var(--basil); text-underline-offset: 3px; }
+    .lede { margin-top: 10px; font-size: 17px; }
+    .meta { margin-top: 6px; font-size: 14px; }
+    .langs { margin-top: 18px; font-size: 14px; }
+    .card { background: var(--sheet); border: 1px solid var(--rule); border-radius: 14px; padding: 18px 20px; margin-top: 12px; }
+    .tag { display: inline-block; background: var(--tag); color: var(--ink); border-radius: 999px; padding: 1px 10px; font-size: 13px; font-weight: 600; }
+    hr { border: 0; border-top: 1px dashed var(--rule); margin: 56px 0 8px; }
+    footer { margin-top: 48px; font-size: 14px; color: var(--soft); }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Privacy Policy</h1>
-    <p class="subtitle">Listo: Shopping List &mdash; Last updated: March 25, 2026</p>
+<main>
+  <h1>Listo privacy policy</h1>
+  <p class="lede">Your lists stay on your phone. To show ads, sell Listo Pro and fix crashes, a few services receive technical data, never your lists.</p>
+  <p class="meta">Updated 21 November 2026, for Listo 2.0 and later. BeCaptain Studio.</p>
+  <p class="langs"><a href="#pt">Leia em português</a></p>
 
-    <h2>Overview</h2>
-    <p>Listo is built with privacy as a core principle. The app works entirely offline and does not collect, store, or transmit any personal data to external servers.</p>
+  <h2>What stays on your phone</h2>
+  <p>Your lists, items, quantities, prices, budgets, history, reminders, aisle order and settings are stored only on your device. Listo has no account and no server of its own, and it never uploads them. Sending a list is something you do yourself, as text, through the share sheet. Deleting the app deletes all of it.</p>
+  <p>Reminders are scheduled by iOS on the device itself; no message passes through a server.</p>
 
-    <h2>Data Collection</h2>
-    <p>Listo does <strong style="color:#fff">not</strong> collect any personal information. Specifically:</p>
-    <ul>
-      <li>No account or login required</li>
-      <li>No personal data collected (name, email, phone, etc.)</li>
-      <li>No location data collected</li>
-      <li>No analytics or tracking SDKs</li>
-      <li>No data shared with third parties</li>
-    </ul>
-
-    <h2>Local Data Storage</h2>
-    <p>All data you create in Listo (shopping lists, items, budgets, history) is stored exclusively on your device using local storage. This data is never transmitted to any server.</p>
-    <p>If you delete the app, all locally stored data will be permanently removed.</p>
-
-    <h2>Advertising</h2>
-    <p>Listo displays ads provided by Google AdMob. AdMob may collect certain device information for the purpose of serving ads, in accordance with <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</p>
-    <p>On iOS, Listo respects your App Tracking Transparency (ATT) preferences. If you decline tracking, only contextual (non-personalized) ads will be shown.</p>
-
-    <h2>Children's Privacy</h2>
-    <p>Listo is not directed at children under 13. We do not knowingly collect personal information from children.</p>
-
-    <h2>Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated date.</p>
-
-    <h2>Contact</h2>
-    <p>If you have questions about this Privacy Policy, contact us at:</p>
-    <p><strong style="color:#7c5cfc">becaptainstudio@gmail.com</strong></p>
-
-    <div class="footer">
-      <p>&copy; 2026 BeCaptain Studio. All rights reserved.</p>
-      <p style="margin-top: 8px;"><a href="/listo/support.html">Support</a> &middot; <a href="/">Home</a></p>
-    </div>
+  <h2>What is sent, and why</h2>
+  <div class="card">
+    <h3>Usage statistics · Google Analytics for Firebase</h3>
+    <p>Which features are used (for example "a list was created", "a shop was finished", "a dish was added"), with small counts such as the number of items. Also the app version, device model, iOS version, language, country and an identifier for this installation. Never the name of a list or an item, and never an amount of money you typed. Used only to learn what works and what to improve; not linked to you and not used for tracking.</p>
   </div>
+  <div class="card">
+    <h3>Crash reports · Firebase Crashlytics</h3>
+    <p>When the app crashes: the technical trace, device model, iOS and app version, and an installation identifier. Used only to fix the problem.</p>
+  </div>
+  <div class="card">
+    <h3>Ads · Google AdMob</h3>
+    <p>Listo shows a banner on its home screen and, at most once a day, a full-screen ad after a finished shop. To serve and measure them, Google receives device information such as the model, iOS version, IP address (from which it estimates a region) and identifiers for advertising, under <a href="https://policies.google.com/technologies/partner-sites">Google's policy</a>. Listo does not ask for App Tracking Transparency, so your Apple advertising identifier is not shared and you are not tracked across other companies' apps. In the European Economic Area, the United Kingdom and Switzerland, Google's form asks for your consent first, and you can change your answer at any time in Listo's Settings, under "Ad privacy".</p>
+  </div>
+  <div class="card">
+    <h3>Listo Pro · Apple and RevenueCat</h3>
+    <p>Listo Pro is a one-time purchase that removes the ads. Apple handles the payment; Listo never sees your card or your Apple ID. RevenueCat receives the purchase receipt and an anonymous app user ID so that Listo can tell whether Pro is owned and restore it on a new phone.</p>
+  </div>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li><strong>Buy Listo Pro</strong> and no ad is requested again.</li>
+    <li><strong>Ad privacy</strong> (Europe, UK, Switzerland): change your consent in Settings.</li>
+    <li><strong>Notifications</strong> are off until you set a reminder; turn them off any time in iOS Settings.</li>
+    <li><strong>Delete the app</strong> to delete everything Listo stored on your phone.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Listo is a general shopping app, not directed at children under 13, and it does not knowingly collect their data.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or requests: <a href="mailto:becaptainstudio@gmail.com">becaptainstudio@gmail.com</a>. If this policy changes, this page shows the new date.</p>
+
+  <hr id="pt">
+  <h1>Política de privacidade do Listo</h1>
+  <p class="lede">Suas listas ficam no seu celular. Para mostrar anúncios, vender o Listo Pro e corrigir falhas, alguns serviços recebem dados técnicos, nunca as suas listas.</p>
+  <p class="meta">Atualizada em 21 de novembro de 2026, para o Listo 2.0 em diante. BeCaptain Studio.</p>
+
+  <h2>O que fica no seu celular</h2>
+  <p>Listas, itens, quantidades, preços, orçamentos, histórico, lembretes, ordem dos corredores e ajustes ficam guardados só no aparelho. O Listo não tem conta nem servidor próprio e nunca envia esses dados. Mandar uma lista é algo que você faz, como texto, pelo menu de compartilhar. Apagar o app apaga tudo.</p>
+  <p>Os lembretes são agendados pelo próprio iOS, no aparelho; nenhuma mensagem passa por servidor.</p>
+
+  <h2>O que é enviado, e por quê</h2>
+  <div class="card">
+    <h3>Estatísticas de uso · Google Analytics para Firebase</h3>
+    <p>Quais recursos são usados (por exemplo "uma lista foi criada", "uma compra foi concluída", "um prato foi adicionado"), com contagens pequenas, como o número de itens. Também a versão do app, modelo do aparelho, versão do iOS, idioma, país e um identificador desta instalação. Nunca o nome de uma lista ou de um item, nunca um valor em dinheiro que você digitou. Serve só para entender o que funciona e o que melhorar; não é ligado a você nem usado para rastreamento.</p>
+  </div>
+  <div class="card">
+    <h3>Relatórios de falha · Firebase Crashlytics</h3>
+    <p>Quando o app fecha sozinho: o registro técnico, modelo do aparelho, versões do iOS e do app e um identificador da instalação. Serve só para corrigir o problema.</p>
+  </div>
+  <div class="card">
+    <h3>Anúncios · Google AdMob</h3>
+    <p>O Listo mostra um banner na tela inicial e, no máximo uma vez por dia, um anúncio de tela cheia depois de uma compra concluída. Para exibir e medir esses anúncios, o Google recebe informações do aparelho como modelo, versão do iOS, endereço IP (do qual estima uma região) e identificadores de publicidade, conforme a <a href="https://policies.google.com/technologies/partner-sites?hl=pt-BR">política do Google</a>. O Listo não pede a Transparência de Rastreamento de Apps, então o identificador de publicidade da Apple não é compartilhado e você não é rastreado em apps de outras empresas. No Espaço Econômico Europeu, no Reino Unido e na Suíça, o formulário do Google pede o seu consentimento antes, e você pode mudar a resposta quando quiser em Ajustes do Listo, em "Privacidade dos anúncios".</p>
+  </div>
+  <div class="card">
+    <h3>Listo Pro · Apple e RevenueCat</h3>
+    <p>O Listo Pro é uma compra única que tira os anúncios. A Apple cuida do pagamento; o Listo nunca vê seu cartão nem seu ID Apple. A RevenueCat recebe o comprovante da compra e um identificador anônimo do app, para o Listo saber se o Pro foi comprado e restaurá-lo num celular novo.</p>
+  </div>
+
+  <h2>Suas escolhas</h2>
+  <ul>
+    <li><strong>Comprar o Listo Pro</strong>: nenhum anúncio é pedido de novo.</li>
+    <li><strong>Privacidade dos anúncios</strong> (Europa, Reino Unido, Suíça): mude o consentimento em Ajustes.</li>
+    <li><strong>Notificações</strong> ficam desligadas até você criar um lembrete; desligue quando quiser nos Ajustes do iOS.</li>
+    <li><strong>Apagar o app</strong> apaga tudo o que o Listo guardou no celular.</li>
+  </ul>
+
+  <h2>Crianças</h2>
+  <p>O Listo é um app de compras para o público geral, não é voltado a menores de 13 anos e não coleta dados deles conscientemente.</p>
+
+  <h2>Contato</h2>
+  <p>Dúvidas ou pedidos: <a href="mailto:becaptainstudio@gmail.com">becaptainstudio@gmail.com</a>. Se esta política mudar, esta página mostra a nova data.</p>
+
+  <footer><a href="/listo/support.html">Help · Ajuda</a> · © 2026 BeCaptain Studio</footer>
+</main>
 </body>
 </html>
