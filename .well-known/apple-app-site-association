@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["975VVFT32M.com.becaptainstudio.quizbiblico"],
+        "components": [
+          { "/": "/quiz-biblico-site/duelo", "comment": "Quiz Bíblico: Duelo" },
+          { "/": "/quiz-biblico-site/duelo/*", "comment": "Quiz Bíblico: Duelo" }
+        ]
+      }
+    ]
+  }
+}
